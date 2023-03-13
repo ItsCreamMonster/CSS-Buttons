@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    background: #212121;
+    color: white;
+    overflow-x: hidden;
+}
+
+hr {
+    border: 2px solid #f3f3f3;
+    border-radius: 2px;
+    opacity: 0.1;
+    width: 45vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header {
+    background: #393939;
+    /* height: 10vh; */
+    margin: -10px;
+    padding: 0px;
+}
+
+
+.back {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 140%;
+    color: #fff;
+    padding: 16px;
+    margin: 16px;
+    width: 9vw;
+    height: 9vh;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: #fff;
+    color: #393939;
+}
+
+
+.main {
+    font-family: 'Montserrat', sans-serif;
+    /* Something here */
+    margin-top: 3rem;
+    background-color: rgba(255, 255, 255, 0.021);
+    padding: 23px;
+    width: 50vw;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 320%;
+    font: 'Montserrat Black', sans-serif;
+    font-weight: 800;
+    margin: 7px;
+}
+
+.subtitle {
+    font-size: 140%;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.desc {
+    font-size: 200%;
+    font-weight: 700;
+    margin-top: -4px;
+}
+
+.contributionButton {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 180%;
+    color: #fff;
+    padding: 16px;
+    margin: 16px;
+    width: 12vw;
+    height: 9vh;
+    border-radius: 100px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.contributionButton:hover {
+    background-color: #fff;
+    color: #393939;
+}

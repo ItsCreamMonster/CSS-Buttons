@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flexbox;
+    background: #212121;
+    color: white;
+}
+
+hr {
+    border: 2px solid #f3f3f3;
+    border-radius: 2px;
+    opacity: 0.1;
+    width: 25vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#smallBR {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* THE BUTTONS THEMSELVES */
+
+.texter-button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 120%;
+    color: #fff;
+    width: 14vw;
+    height: 9vh;
+    outline: none;
+    border: 5px solid #fff;
+    border-radius: 100px; 
+    background: linear-gradient(to right, #ff871e, #fff01e);
+    transition: all 0.1074s ease-in;
+    /* transition: border 0.1s ease-in; */
+
+}
+
+.texter-button:hover {
+    font-size: 140%;
+    /* width: 15vw;
+    height: 10vh; */
+    border: 5px solid #d6e /* #d6e3ff */;
+}
+
+
+/* INPUTS ARE COOL */
+
+.styled-input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+    font-size: 105%;
+    padding: 6px;
+    border-radius: 9px;
+    outline: none;
+    border: 3px solid rgb(190, 190, 190);
+}
+
+.extraStyled-input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;   
+    font-size: 105%;
+    padding: 6px;
+    border-radius: 9px;
+    outline: none;
+    border: 3px solid rgb(255, 255, 255);
+    background: linear-gradient(to right, #ff93ff, #93e8ff);
+}
+
+.roundedPlus-input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 105%;
+    padding: 6px;
+    border-radius: 50px;
+    border: 3px solid rgb(190, 190, 190);
+}
+
+.roundedAlternate-input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 105%;
+    padding: 6px;
+    border-radius: 50px;
+    border: 3px solid rgb(190, 190, 190);
+    background: linear-gradient(to right, #c5ffe4, #f88afc) 
+}
+
+
+/* TE AMZING CHECKBOXES!!! */
+
+.cool-checkbox {
+    width: 9vw;
+    height: 9vh;
+    /* border: 3px solid #fff; */
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.cool-checkbox:checked {
+    width: 12vw;
+}
+
+
+    /* box-shadow: 0px 0px 15px linear-gradient(to right, #f50000, #ff871e, #fff01e, #00ff73, #0087f5, #e81cff);
+    background: linear-gradient(to right, #f50000, #ff871e, #fff01e, #00ff73, #0087f5, #e81cff); */
+
+    /* background-color: transparent;
+    background: #fff;
+    background-position-x: 0% 20% 100px; */
